@@ -30,7 +30,6 @@ public class Main {
         for (int y = 0; y < yCount; y++) {
             for (int x = 0; x < xCount; x++) {
                 gridData[y][x] = Math.round(Math.random() * 100);
-                System.out.println(gridData[y][x]);
             }
         }
         Cell[][] cellGrid = new Cell[yCount - 1][xCount - 1];
